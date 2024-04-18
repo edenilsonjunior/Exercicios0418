@@ -11,8 +11,7 @@ fim = int.Parse(Console.ReadLine());
 aux = inicio;
 aux++;
 Console.WriteLine("Numeros pares:");
-while (aux < fim)
-{
+while (aux < fim){
     if (aux % 2 == 0){
         Console.Write($"{aux} ");
     }
@@ -22,10 +21,8 @@ while (aux < fim)
 aux = inicio;
 aux++;
 Console.WriteLine("\nNumeros impares:");
-while (aux < fim)
-{
-    if (aux % 2 != 0)
-    {
+while (aux < fim){
+    if (aux % 2 != 0){
         Console.Write($"{aux} ");
     }
     aux++;
